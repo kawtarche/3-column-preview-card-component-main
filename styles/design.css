@@ -1,0 +1,99 @@
+body{
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+
+}
+
+section.cards-container{
+    display: flex;
+    height: 100vh;
+}
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 60px;
+}
+
+h1{
+    text-transform:uppercase;
+    font-size: 45px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 0px;
+}
+
+img{
+    width: 20%;
+}
+ p {
+     width: 70%;
+     font-size: 20px;
+     font-family: 'Lexend Deca', sans-serif;
+     margin: 0px;
+ }
+
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 40px;
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0px;
+}
+
+.background-orange{
+    background-color: #E28525;
+}
+
+.background-green{
+    background-color:#016972;
+}
+
+.background-dark-green{
+    background-color:#00403F;
+}
+
+
+.color-orange{
+    color: #E28525;
+}
+
+.color-green{
+    color:#016972;
+}
+
+.colorund-dark-green{
+    color:#00403F;
+}
+
+@media (max-width: 375px) {
+   section{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;}
+
+    h1,p {
+        margin-top: 20px;
+    }
+    p{
+        font-size: 11px;
+    }
+
+    button{
+        margin-top: 20px;
+        font-size: 9px;
+        margin-bottom: 30px;
+    }
+
+    img{
+        margin-top: 30px;
+    }
+
+
+}
+
+
+
+
